@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "40007034184",
+    "firebase_url": "https://nbahighlights-e3d26-default-rtdb.firebaseio.com",
+    "project_id": "nbahighlights-e3d26",
+    "storage_bucket": "nbahighlights-e3d26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40007034184:android:f36356514f0cac45eb7f7d",
+        "android_client_info": {
+          "package_name": "com.nbahighlights.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmLHxqF15sRPTQ_C3w6mzG2ds4ADjM95c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

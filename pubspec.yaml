@@ -1,0 +1,95 @@
+# **Project Name and Description**
+name: nba_highlights_app
+description: "A new Flutter project."
+
+# **Package Publishing**
+publish_to: 'none'
+
+# **Version and Build Number**
+version: 1.0.0+1
+
+# **Dart SDK Version**
+environment:
+  sdk: ^3.5.4
+
+# **Dependencies**
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # **Provider**
+  # State management library used to manage the app's state.
+  provider: ^6.0.5
+
+  # **Firebase Core**
+  # Required for initializing Firebase in the app.
+  firebase_core: ^3.8.1
+
+  # **Firebase Realtime Database**
+  # For real-time data storage and retrieval.
+  firebase_database: ^11.2.0
+
+  # **Firebase Storage**
+  # To upload and download files from Firebase Storage.
+  firebase_storage: ^12.3.7
+
+  # **Flutter Text-to-Speech (TTS)**
+  # Enables text-to-speech functionality for the app.
+  flutter_tts: ^4.2.0
+
+  # **Cached Network Image**
+  # Used to efficiently load and cache images from the internet.
+  cached_network_image: ^3.2.3
+
+  # **Cupertino Icons**
+  # Provides iOS-style icons for use in the app.
+  cupertino_icons: ^1.0.8
+
+# **Development Dependencies**
+# These dependencies are only used during development (e.g., testing, debugging).
+dev_dependencies:
+  # **Flutter Launcher Icons**
+  # Used to automatically generate app icons for iOS and Android.
+  flutter_launcher_icons: ^0.14.2
+
+  # **Flutter Test**
+  # Used to write unit and widget tests.
+  flutter_test:
+    sdk: flutter
+
+# **Flutter Icons (Launcher Icons) Configuration**
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/homescreenlogo.png"
+
+# **Linter for Dart**
+flutter_lints: ^5.0.0
+
+# **Flutter Configuration**
+# This section defines the **assets** and **fonts** used in the app.
+flutter:
+
+  # **Assets**
+  # Defines the assets (e.g., images) used in the app.
+  assets:
+    - assets/logo/applogo.png
+    - assets/logo/homescreenlogo.png
+  
+  # **Custom Fonts**
+  fonts:
+    - family: KalniaGlaze
+      fonts:
+        - asset: assets/fonts/KalniaGlaze-VariableFont_wdth,wght.ttf
+    - family: MonaSans
+      fonts:
+        - asset: assets/fonts/MonaSans-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/MonaSans-Italic-VariableFont_wdth,wght.ttf
+          style: italic
+    - family: EduAUVICWANTArrows
+      fonts:
+        - asset: assets/fonts/EduAUVICWANTArrows-VariableFont_wght.ttf
+
+  # **Material Design Icons**
+  # Ensures that the Material Icons font is included with your app.
+  uses-material-design: true
